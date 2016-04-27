@@ -1,0 +1,367 @@
+/*Typography*/
+@font-face {
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Arvo', serif;
+}
+
+h1,.navbar-brand { font-family: 'Quicksand', sans-serif; font-weight:bold 700; }
+
+.item p,p {
+	 font-family: 'Arvo',serif; font-weight:400;
+}
+
+.nav, .link-list {
+	font-family: 'Quicksand', sans-serif; font-weight:400;
+}
+
+h2, h3
+{ font-family: 'Quicksand', sans-serif; font-weight:bold 700; }
+
+
+/* Layout
+================================ */
+html,body {
+	height:100%;
+}
+
+body {
+  position: relative;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.lead {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.about {
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+
+.about h2 {
+	padding-top:80px;
+}
+
+.about p {
+	padding-top:5px;
+}
+
+.mainfeatures h2 {
+	padding-top:60px;
+}
+
+.mainfeatures p {
+	padding-top:15px;
+}
+
+.featurestwo {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.ft {
+	text-align:center;
+}
+
+.form-inline {
+	margin-left:30px;
+	margin-right:30px;
+}
+
+.main-footer {
+	padding-top: 50px;
+	padding-right:40px;
+	padding-left:40px;
+}
+
+.contacts {
+	text-align:left;
+}
+
+.form-group {
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.btn-primary {
+	margin-top:29px;
+}
+
+.panel {
+	margin:40px 70px 100px 70px;
+}
+
+.device {
+	padding-top:20px;
+	width: 450px;
+	height: 600px;
+	background: url('../img/glancemockup.png') no-repeat;       
+}
+
+/* Jumbotron
+================================ */
+
+.jumbotron {
+  text-align: center;
+ /* margin-bottom: 70px;*/
+  padding-bottom: 70px;
+  padding-top:70px;
+  background: linear-gradient(to right bottom, #B2EBF2 50%, lightgrey 50%);
+
+}
+
+/* Glyphicons
+================================ */
+
+.glyphicon {
+	font-size: 3em;
+	display: block;
+	text-align: center;
+	color: rgba(58,135,173,1);
+}
+
+
+/* Buttons
+================================ */
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+	outline-color: black;
+}
+
+.btn-sucess.outline {
+	border: 10px solid black;
+	color: black;
+}
+.btn-success.outline:hover, .btn-success.outline:focus, .btn-success.outline:active, .btn-success.outline.active {
+	color: #4FC3F7;
+	border-color: #4FC3F7;
+}
+
+.topbtn {
+    padding: 14px 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 3px solid black;
+}
+
+.btn { 
+	padding:14px 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.btn-primary {
+	padding-left:30px;
+	padding-right:30px;
+
+}
+
+#navscroll {
+	color:#4FC3F7;
+	border-color:#4FC3F7;
+
+}
+
+.icon-bar {
+	background:#B2EBF2;
+}
+
+/*Jquery*/
+
+.fadeInBlock, .hideme {
+    opacity:0;
+}
+
+
+/*Panel Design*/
+.panel {
+	border: 2px solid lightgrey;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.panelbtn {
+	color:#4FC3F7;
+}
+
+
+@media (max-width: 1070px) {
+	.about {
+	/*text-align:center;*/
+	padding-top:80px;
+	padding-bottom:80px;
+	}
+
+
+	.jumbotron {
+		padding-top:0;
+		padding-bottom:0;
+		margin:0;
+		background-position: center;
+	}
+
+	.ft-copy,.ft {
+	padding-top:80px;
+	padding-bottom:80px;
+	}
+
+
+	.ft-copy p {
+		width: auto;
+	}
+
+	p {
+		margin:0;
+	}
+
+
+
+	.panel {
+		margin-left:50px;
+		margin-right:50px;
+	}
+
+	.main-footer {
+	padding-top: 50px;
+	padding-right:40px;
+	padding-left:40px;
+}
+
+.contacts {
+	text-align:left;
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+	.jumbotron {
+		padding-top:50px;
+		margin:0;
+		background-position: center;
+		line-height:5;
+		height:500px;
+	}
+
+	.jumbotron h1 {
+		font-size:30px;
+	}
+
+	.jumbotron p {
+		font-size:20px;
+	}
+
+	.device {
+		background-size: 90%;
+		height:400px;
+	}
+
+	.ft-copy p {
+		width: auto;
+	}
+
+	p {
+		margin:0;
+	}
+
+	.about {
+		padding-left:40px;
+	}
+
+	.about h2, .about p {
+		padding-top:25px;
+	}
+
+	.panel {
+		margin-top:0;
+		margin-bottom:50px;
+	}
+	
+	.main-footer {
+		margin-top: 64px;
+		padding-top:2px;
+		padding-bottom:25px;
+		font-size:.95em;
+		padding-right:20px;
+	}
+}
+
+@media (max-width: 425px) {
+
+	.lead {
+		padding-left:15px;
+		padding-right:15px;
+	}	
+
+	.about {
+		text-align:center;
+		padding-left:10px;
+		padding-top:15px;
+		padding-bottom:15px;
+
+	}
+
+
+	.mainfeatures {
+		padding-top:15px;
+		padding-bottom:25px;
+	}
+
+	.ft p {
+		font-size:18px;
+	}
+
+	.ft-copy {
+		padding-top:10px;
+		padding-bottom:15px;
+	}
+
+	.featurestwo {
+		text-align:center;
+	}
+
+	#features {
+		text-align:center;
+	}
+
+	}
+	.ft-copy p {
+		width: auto;
+	}
+
+	.main-footer .mission {
+		padding-bottom:15px;
+		font-size:.95em;
+		text-align:center;
+	}
+
+	.main-footer .copyright {
+		padding-top:5px;
+		text-align:center;
+	}
+
+	.main-footer .contacts {
+		list-style:none;
+		text-align:left;
+	}
+}
+
+@media (max-width: 320px) {
+
+}
