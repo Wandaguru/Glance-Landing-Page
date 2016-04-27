@@ -104,7 +104,7 @@ body {
 	padding-top:20px;
 	width: 450px;
 	height: 600px;
-	background: url('../img/glancemockup.png') no-repeat;       
+	background: url('../img/glancemockup.png') no-repeat;
 }
 
 /* Jumbotron
@@ -115,8 +115,9 @@ body {
  /* margin-bottom: 70px;*/
   padding-bottom: 70px;
   padding-top:70px;
-  background: linear-gradient(to right bottom, #B2EBF2 50%, lightgrey 50%);
-
+  /*background: linear-gradient(to right bottom, #B2EBF2 50%, lightgrey 50%);*/
+	background-image: linear-gradient(0deg, #B2EBF2, #4FC3F7 95%);
+  background-size: cover;
 }
 
 /* Glyphicons
@@ -155,12 +156,12 @@ body {
     border: 3px solid black;
 }
 
-.btn { 
+.btn {
 	padding:14px 24px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    
+
 }
 
 .btn-primary {
@@ -292,7 +293,7 @@ body {
 		margin-top:0;
 		margin-bottom:50px;
 	}
-	
+
 	.main-footer {
 		margin-top: 64px;
 		padding-top:2px;
@@ -307,7 +308,7 @@ body {
 	.lead {
 		padding-left:15px;
 		padding-right:15px;
-	}	
+	}
 
 	.about {
 		text-align:center;
